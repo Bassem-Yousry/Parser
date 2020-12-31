@@ -4,7 +4,6 @@ First install Graphviz https://www.graphviz.org/download/ and make sure it's wor
 
 ## Example
 
-![](EXE/SyntaxTree.gv.png)
 
 ### Code :
 ```
@@ -19,5 +18,6 @@ until x = 0;
 write fact { output factorial of x}
 end
 
-
 ```
+### Output
+![](EXE/SyntaxTree.gv.png)
