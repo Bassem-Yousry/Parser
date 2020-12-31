@@ -13,9 +13,11 @@ read x; {input an integer }
 if x < 0 then { don't compute if x}
 fact := x ;
 repeat
-fact := fact * x
+fact := fact * x;
+x := x-1
 until x = 0;
 write fact { output factorial of x}
 end
+
 
 ```
